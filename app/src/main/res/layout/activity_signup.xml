@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/Jamal_700_Primary">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="3dp"
+            android:paddingTop="35dp"
+            android:text="Sign Up"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/Emailtextlayout"
+            style="@style/TextInpuLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="20dp"
+            android:hint="Email"
+            android:paddingHorizontal="20dp"
+            android:textColorHint="@color/Jamal_btnTextColor"
+            app:hintTextColor="@color/Jamal_btnTextColor">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/regEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:textColor="@color/purple_700"
+                android:textColorHighlight="@color/Jamal_btnTextColor"
+                android:textColorHint="@color/Jamal_btnTextColor"
+                android:textColorLink="@color/Jamal_btnTextColor" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/Password_text_inputLayout"
+            style="@style/TextInpuLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Emailtextlayout"
+            android:layout_marginTop="20dp"
+            app:endIconMode="password_toggle"
+            android:hint="Password"
+            android:paddingHorizontal="20dp"
+            android:textColorHint="@color/Jamal_btnTextColor"
+            app:hintTextColor="@color/Jamal_btnTextColor">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/regPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:textColor="#FFFFFF"
+                android:textColorHint="@color/Jamal_btnTextColor" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/Confirmpasslayout"
+            style="@style/TextInpuLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Password_text_inputLayout"
+            android:layout_marginTop="20dp"
+            android:hint="Confirm Password"
+            android:paddingHorizontal="20dp"
+            android:textColorHint="@color/Jamal_btnTextColor"
+            app:endIconMode="password_toggle"
+            app:hintTextColor="@color/Jamal_btnTextColor">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/confPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:textColor="#FFFFFF"
+                android:textColorHint="@color/Jamal_btnTextColor" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="188dp"
+            android:layout_height="114dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/full" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="181dp"
+            android:layout_height="51dp"
+            android:layout_below="@+id/Confirmpasslayout"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="111dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="39dp"
+
+            android:layout_marginRight="35dp"
+            android:layout_marginBottom="6dp"
+            android:paddingLeft="35dp"
+            android:paddingRight="35dp"
+            android:text="Register"
+            android:textColor="@color/Jamal_btnTextColor" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

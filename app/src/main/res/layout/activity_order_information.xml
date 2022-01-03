@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Jamal_700_Primary"
+    tools:context=".OrderInformation">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/order_information"
+        android:layout_width="379dp"
+        android:layout_height="250dp"
+        app:cardBackgroundColor="#CFC8DC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.747">
+
+        <TextView
+            android:id="@+id/emailbook"
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="140dp"
+            android:hint="olenordman@gmail.com" />
+
+
+             <TextView
+            android:id="@+id/emailbooklabel"
+            android:layout_width="144dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="110dp"
+            android:text="Email:"
+            android:textStyle="bold" />
+
+
+
+        <TextView
+            android:id="@+id/ordernummer"
+            android:layout_width="144dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="50dp"
+             />
+
+        <TextView
+            android:id="@+id/ordernummerlabel"
+            android:layout_width="144dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:text="Order number:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fullnamebook"
+            android:layout_width="144dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="80dp"
+            android:hint="Ole Nordman" />
+
+        <TextView
+            android:id="@+id/fullnamebooklabel"
+            android:layout_width="144dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="80dp"
+            android:text="Full name:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/phonebook"
+            android:layout_width="144dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="110dp"
+            android:hint="98765432" />
+
+        <TextView
+            android:id="@+id/phonebooklabel"
+            android:layout_width="144dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="140dp"
+            android:text="Phone number:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/showPickUpDate"
+            android:layout_width="fill_parent"
+            android:layout_height="29dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="170dp"
+            android:hint="dd.mm.yyyy" />
+
+        <TextView
+            android:id="@+id/showPickUpDatelabel"
+            android:layout_width="144dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="170dp"
+            android:text="Pick-up Date:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/showReturnDate"
+            android:layout_width="fill_parent"
+            android:layout_height="29dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="200dp"
+            android:hint="dd.mm.yyyy" />
+
+        <TextView
+            android:id="@+id/showReturnDatelabel"
+            android:layout_width="144dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="200dp"
+            android:text="Return Date:"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="206dp"
+        android:layout_height="184dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.081"
+        app:srcCompat="@drawable/full" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enjoy your ride.."
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.922" />
+</androidx.constraintlayout.widget.ConstraintLayout>

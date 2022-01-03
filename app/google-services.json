@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "276647421640",
+    "project_id": "driveyourself-589eb",
+    "storage_bucket": "driveyourself-589eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276647421640:android:a6b5f6f895a4e8c20967fd",
+        "android_client_info": {
+          "package_name": "com.mob3000.group11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276647421640-866s565gj2p0opjuije8aan0irj9beir.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mob3000.group11",
+            "certificate_hash": "d1a5f98caad12d7e4e94b7c88c364ef69161962e"
+          }
+        },
+        {
+          "client_id": "276647421640-6fgkgnc9icabg8cr5o16d1o63qrj28kq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATtos5lHmrhDi8ByKH5TBhKSjAv1t2SoM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276647421640-6fgkgnc9icabg8cr5o16d1o63qrj28kq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

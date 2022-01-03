@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mob3000.group11">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Group11">
+        <activity
+            android:name=".OrderInformation"
+            android:exported="true"
+            android:parentActivityName=".Confirmation" />
+        <activity
+            android:name=".Confirmation"
+            android:exported="true"
+            android:parentActivityName=".Reservation" />
+        <activity
+            android:name=".Reservation"
+            android:exported="true"
+            android:parentActivityName=".booking_activity" />
+        <activity
+            android:name=".ForgotPassword"
+            android:exported="true"
+            android:parentActivityName=".signin_activity" />
+        <activity
+            android:name=".booking_activity"
+            android:exported="true"
+            android:parentActivityName=".search_activity" />
+        <activity
+            android:name=".search_activity"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".signup_activity"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".signin_activity"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AboutUs"
+            android:exported="true"
+            android:parentActivityName=".MainActivity"
+            />
+        <activity
+            android:name=".Contact"
+            android:exported="true"
+            android:parentActivityName=".MainActivity"
+            />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

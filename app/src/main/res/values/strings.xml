@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Drive Yourself</string>
+    <string name="introduction">Rapid Rentals \n The easy way to get around</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+
+    <string name="dateview">dateView</string>
+    <string name="search">Search</string>
+    <string name="get_date">get date</string>
+    <string name="get_date1">get date</string>
+    <string name="get_time">get time</string>
+    <string name="timeview">timeView</string>
+    <string name="booking_text">booking_text</string>
+    <string name="about_us">About us</string>
+    <string name="contact_us">Contact us</string>
+
+    // these values added from Jamals task
+    <string name="contact_item">Contact</string>
+    <string name="intro_text">About DriveYourself</string>
+    <string name="text_AboutUs">\tIt is easy to book Your car either for hours or days.\n
+                                \tYou can find the best car rentals deals.\n
+                                \tYou can choose the date for picking up and dropping\n
+                                \toff then you will find the car that is available.\n
+                                \tBy sorting and filtering you will get the car that suits\n
+                                \tyou.
+    </string>
+    <string name="contact_uss">Contact us by</string>
+    <string name="tv_phone">0000000000</string>
+    <string name="tv_emai">000000@usn.no</string>
+    <string name="log_out">Log out</string>
+    <string name="filter_your_search">Filter your search</string>
+    <string name="price">Price</string>
+    <string name="brand">Brand</string>
+    <string name="gir">Gir</string>
+    <string name="seats">Seats</string>
+    <string name="book">Book</string>
+    <string name="full_name">Enter your full name</string>
+    <string name="email">Enter your email</string>
+    <string name="phone">Enter your phone</string>
+    <string name="confirm">Confirm</string>
+    <string name="text_infoaboutpayatlocation">Text_infoAboutPayAtLocation</string>
+
+
+</resources>
